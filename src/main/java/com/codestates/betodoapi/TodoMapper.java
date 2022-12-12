@@ -1,8 +1,8 @@
-package com.codestates.betodoapi.todo;
+package com.codestates.betodoapi;
 
-import com.codestates.betodoapi.todo.dto.TodoPatchDto;
-import com.codestates.betodoapi.todo.dto.TodoPostDto;
-import com.codestates.betodoapi.todo.dto.TodoResponseDto;
+import com.codestates.betodoapi.dto.TodoPatchDto;
+import com.codestates.betodoapi.dto.TodoPostDto;
+import com.codestates.betodoapi.dto.TodoResponseDto;
 import org.mapstruct.Mapper;
 
 import java.util.List;

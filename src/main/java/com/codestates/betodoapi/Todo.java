@@ -1,4 +1,4 @@
-package com.codestates.betodoapi.todo;
+package com.codestates.betodoapi;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
