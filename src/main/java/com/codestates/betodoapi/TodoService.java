@@ -15,7 +15,7 @@ public class TodoService {
         return todoRepository.save(todo);
     }
 
-    public Todo readTodo(Long id) {
+    public Todo readTodo(long id) {
         return todoRepository.findById(id).orElseThrow();
     }
 
@@ -33,7 +33,7 @@ public class TodoService {
         return todoRepository.save(foundTodo);
     }
 
-    public void deleteTodo(Long id) {
+    public void deleteTodo(long id) {
         todoRepository.delete(todoRepository.findById(id).orElseThrow());
     }
 

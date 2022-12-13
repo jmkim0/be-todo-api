@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 public interface TodoMapper {
     Todo todoPostDtoToTodo(TodoPostDto postDto);
 
-    Todo todoPatchDtoToTodo(Long id, TodoPatchDto patchDto);
+    Todo todoPatchDtoToTodo(long id, TodoPatchDto patchDto);
     TodoResponseDto todoToTodoResponseDto(Todo todo, String url);
     default List<TodoResponseDto> todosToTodoResponseDtos(List<Todo> todos, String url) {
         return todos.stream()

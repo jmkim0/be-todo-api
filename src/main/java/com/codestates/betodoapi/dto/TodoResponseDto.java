@@ -6,7 +6,7 @@ import lombok.Getter;
 @Getter
 @AllArgsConstructor
 public class TodoResponseDto {
-    private final Long id;
+    private final long id;
     private final String title;
 
     private final int order;

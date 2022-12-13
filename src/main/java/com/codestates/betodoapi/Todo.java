@@ -10,7 +10,7 @@ import org.springframework.data.relational.core.mapping.Column;
 @Setter
 @AllArgsConstructor
 public class Todo {
-    private final @Id Long id;
+    private final @Id long id;
     private String title;
     @Column("TODO_ORDER")
     private Integer order;
